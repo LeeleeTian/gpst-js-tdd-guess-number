@@ -1,0 +1,6 @@
+1.Input: 'The system generates 1234 and user inputs .', Output: '0A0B'
+2.Input: 'The system generates 1234 and user inputs 12.', Output: '0A0B'
+3.Input: 'The system generates 1234 and user inputs 1234.', Output: '4A0B'
+4.Input: 'The system generates 1234 and user inputs 4321.', Output: '0A4B'
+5.Input: 'The system generates 1234 and user inputs 1243.', Output: '2A2B'
+6.Input: 'The system generates 1234 and user inputs 1313.', Output: '1A1B'

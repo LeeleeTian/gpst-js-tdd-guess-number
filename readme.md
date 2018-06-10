@@ -1,3 +1,4 @@
+
 # Javascript 基础语法练习
 
 ## Guess Number 

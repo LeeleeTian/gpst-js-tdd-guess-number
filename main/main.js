@@ -7,7 +7,7 @@ function split(string) {
 }
 
 function print(counter) {
-  return`${counter.A}A${counter.B}B`;
+  return counter.reduce((s, e) => s += e.join(''), '');
 }
 
 function compareNum(numString){
@@ -18,9 +18,9 @@ function compareNum(numString){
       : (numString.userInput.includes(numString.system[index]))? b++ : null;
     }
   }
-  return {A: a, B: b};
+  return [[a, 'A'], [b, 'B']];
 }
-
+``
 function main(string) {
   const numString = split(string);
   var counter = compareNum(numString);
